@@ -38,3 +38,13 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 >>>>>>> ebf023d67edf9e28c1703a487bb2688ff3ec5dc7
+
+
+tech stack :
+- next 14
+- shadcn/ui
+- tanstack/react-table
+- react-hot-toast
+- Firebase
+- clerk/nextjs for login auth
+- pretty-bytes for convert size file

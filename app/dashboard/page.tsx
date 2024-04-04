@@ -1,0 +1,32 @@
+import Dropzone from "@/components/Dropzone";
+import { auth } from "@clerk/nextjs";
+import { db } from "@/firebase";
+import { getDocs, collection } from "firebase/firestore";
+import { FileType } from "@/typing";
+import TableWrapper from "@/components/table/TableWrapper";
+
+async function Dashboard() {
+  const { userId } = auth();
+
+  const docResults = await getDocs(collection(db, "users", userId!, "files"));
+  const skeletonFiles: FileType[] = docResults.docs.map((doc) => ({
+    id: doc.id,
+    fileName: doc.data().fileName || doc.id, //kalau rename kosong file name akan diisi id
+    timestamp: new Date(doc.data().timestamp?.seconds * 1000) || undefined,
+    fullName: doc.data().fullName,
+    downloadURL: doc.data().downloadURL,
+    type: doc.data().type,
+    size: doc.data().size,
+  }));
+  return (
+    <div className="border-t">
+      <Dropzone />
+      <section className="container space-y-5">
+        <h2 className="font-bold">All Files</h2>
+        <TableWrapper skeletonFiles={skeletonFiles} />
+      </section>
+    </div>
+  );
+}
+
+export default Dashboard;
