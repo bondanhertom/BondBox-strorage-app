@@ -1,6 +1,15 @@
-<<<<<<< HEAD
-# image-box-app
-=======
+# BONDBOX-APP
+=============
+This is a Next.js project for a data storage application named BondBox. It is built with the following technologies:
+
+Next.js: The project is bootstrapped with Next.js, a React framework.
+shadcn/ui: This library provides UI components for the project.
+tanstack/react-table: Used for creating tables and managing data.
+react-hot-toast: Used for displaying toast notifications in the application.
+Firebase: Utilized for backend services, including storage and authentication.
+clerk/nextjs: Integrated for login authentication functionality.
+pretty-bytes: Utilized for converting file sizes into human-readable format.
+============
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -37,14 +46,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
->>>>>>> ebf023d67edf9e28c1703a487bb2688ff3ec5dc7
-
-
-tech stack :
-- next 14
-- shadcn/ui
-- tanstack/react-table
-- react-hot-toast
-- Firebase
-- clerk/nextjs for login auth
-- pretty-bytes for convert size file
