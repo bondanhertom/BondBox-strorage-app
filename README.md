@@ -1,14 +1,13 @@
 # BONDBOX-APP
-=============
 This is a Next.js project for a data storage application named BondBox. It is built with the following technologies:
 
-Next.js: The project is bootstrapped with Next.js, a React framework.
-shadcn/ui: This library provides UI components for the project.
-tanstack/react-table: Used for creating tables and managing data.
-react-hot-toast: Used for displaying toast notifications in the application.
-Firebase: Utilized for backend services, including storage and authentication.
-clerk/nextjs: Integrated for login authentication functionality.
-pretty-bytes: Utilized for converting file sizes into human-readable format.
+- Next.js: The project is bootstrapped with Next.js, a React framework.
+- shadcn/ui: This library provides UI components for the project.
+- tanstack/react-table: Used for creating tables and managing data.
+- react-hot-toast: Used for displaying toast notifications in the application.
+- Firebase: Utilized for backend services, including storage.
+- clerk/nextjs: Integrated for login authentication functionality.
+- pretty-bytes: Utilized for converting file sizes into human-readable format.
 ============
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
