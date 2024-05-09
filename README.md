@@ -1,15 +1,15 @@
 # BONDBOX-APP
+
 This is a Next.js project for a data storage application named BondBox. It is built with the following technologies:
 
-- Next.js: The project is bootstrapped with Next.js, a React framework.
-- shadcn/ui: This library provides UI components for the project.
-- tanstack/react-table: Used for creating tables and managing data.
-- react-hot-toast: Used for displaying toast notifications in the application.
-- Firebase: Utilized for backend services, including storage.
-- clerk/nextjs: Integrated for login authentication functionality.
-- pretty-bytes: Utilized for converting file sizes into human-readable format.
-============
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+-   Next.js: The project is bootstrapped with Next.js, a React framework.
+-   shadcn/ui: This library provides UI components for the project.
+-   tanstack/react-table: Used for creating tables and managing data.
+-   react-hot-toast: Used for displaying toast notifications in the application.
+-   Firebase: Utilized for backend services, including storage.
+-   clerk/nextjs: Integrated for login authentication functionality.
+-   # pretty-bytes: Utilized for converting file sizes into human-readable format.
+    This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -35,8 +35,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
